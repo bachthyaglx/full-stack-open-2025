@@ -4,19 +4,19 @@ My solutions for the exercises of the [University of Helsinki](https://www.helsi
 
 ## Course content
 
-### Part 0: [Fundamentals of Web apps]([https://www.helsinki.fi/](https://fullstackopen.com/en/part0))
+### Part 0: [Fundamentals of Web apps]([https://www.helsinki.fi/](https://www.fullstackopen.com/en/part0/)
 - The basics of web development and also the advances in web application development during the last few decades. It includes topics such as web application structure, HTTP protocol, developer tools, traditional web applications, AJAX, single-page apps and JavaScript libraries.
 
-### Part 1: [Introduction to React]([[https://www.helsinki.fi/](https://fullstackopen.com/en/part0](https://fullstackopen.com/en/part1))
+### Part 1: [Introduction to React]([[https://www.helsinki.fi/](https://fullstackopen.com/en/part0](https://fullstackopen.com/en/part1)
 - Familiarizing with the React-library and some features of JavaScript that are important for understanding React.
 
-### Part 2: [Communicating with server]([[https://www.helsinki.fi/](https://fullstackopen.com/en/part0](https://fullstackopen.com/en/part2))
+### Part 2: [Communicating with server]([[https://www.helsinki.fi/](https://fullstackopen.com/en/part0](https://fullstackopen.com/en/part2)
 - Continuation of the introduction to React. It includes data rendering, data submit with HTML forms, fetching data from remote backend server and simple CSS styles.
 
-### Part 3: [Programming a server with NodeJS and Express]([[https://www.helsinki.fi/](https://fullstackopen.com/en/part0](https://fullstackopen.com/en/part3))
+### Part 3: [Programming a server with NodeJS and Express]([[https://www.helsinki.fi/](https://fullstackopen.com/en/part0](https://fullstackopen.com/en/part3)
 - Focuses on implementing and deploying a simple REST API to the internet. The application is developed by using Node.js and the Express library. The application data is stored in a MongoDB database.
 
-### Part 4: [Testing Express servers, user administration]([[https://www.helsinki.fi/](https://fullstackopen.com/en/part0](https://fullstackopen.com/en/part4))
+### Part 4: [Testing Express servers, user administration]([[https://www.helsinki.fi/](https://fullstackopen.com/en/part0](https://fullstackopen.com/en/part4)
 - The focus is still on the backend and the key topics are writing unit and integration tests and the implementing of user authentication and authorization.
 
 ### Part 5: [Testing React apps]([[https://www.helsinki.fi/](https://fullstackopen.com/en/part0](https://fullstackopen.com/en/part5))
