@@ -51,10 +51,10 @@ My solutions for the exercises of the [University of Helsinki](https://www.helsi
 
 ## Course certificates
 
-### Full Stack Open: core course
+### Full Stack Open: Core module
 
 ![fullstackopen_basics_certificate_2025](https://github.com/user-attachments/assets/4a5d645c-8ac6-42e3-be11-574857319f58)
 
-### Full Stack Open: TypeScript module
+### Full Stack Open: GraphQL module
 
 ![fullstackopen_graphQL_certificate_2025](https://github.com/user-attachments/assets/83682d53-9d76-4152-b173-0280115daea3)
