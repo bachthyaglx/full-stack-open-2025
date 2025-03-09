@@ -1,0 +1,10 @@
+POST http://localhost:3001/api/blogs
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFuaHRodWFnbHgiLCJpZCI6IjY2MTdhNjdjMGM3OGE0MTU0NjEwMmI3NyIsImlhdCI6MTcxMjgzMTE5N30.d66dtG6rbS7f9QxDbmaOsgte83Pb5r8XxX3fKYKBz4U
+
+{
+  "title": "I love you",
+  "author": "Thu Hoang",
+  "url": "http://url4.com.vn",
+  "likes": 5
+}

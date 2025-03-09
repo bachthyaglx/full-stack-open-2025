@@ -1,0 +1,103 @@
+/* styles/BlogDetail.css */
+
+/* Blog container */
+.blog-detail {
+    max-width: 768px;
+    margin: 2rem auto;
+    padding: 1.5rem;
+    background-color: white;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+  
+  /* Blog title */
+  .blog-title {
+    font-size: 1.875rem; /* 3xl */
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  
+  /* Blog link */
+  .blog-link {
+    color: #3b82f6; /* Tailwind Blue-500 */
+    text-decoration: none;
+  }
+  
+  .blog-link:hover {
+    text-decoration: underline;
+  }
+  
+  /* Likes section */
+  .blog-likes {
+    margin-top: 0.5rem;
+    color: #374151; /* Gray-700 */
+  }
+  
+  /* Like button */
+  .like-button {
+    margin-top: 0.5rem;
+    background-color: #3b82f6;
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .like-button:hover {
+    background-color: #2563eb; /* Darker Blue */
+  }
+  
+  /* Author section */
+  .blog-author {
+    margin-top: 1rem;
+    color: #4b5563; /* Gray-600 */
+  }
+  
+  /* Comments section */
+  .blog-comments {
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-top: 1.5rem;
+  }
+  
+  /* Comment list */
+  .comment-list {
+    list-style-type: disc;
+    padding-left: 1.5rem;
+    margin-top: 0.5rem;
+  }
+  
+  /* Comment items */
+  .comment-list li {
+    margin-left: 1rem; /* Indentation */
+  }
+  
+  /* Comment form */
+  .comment-form {
+    margin-top: 1rem;
+  }
+  
+  /* Comment input field */
+  .comment-input {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #e5e7eb; /* Gray-300 */
+    border-radius: 4px;
+  }
+  
+  /* Comment submit button */
+  .comment-button {
+    margin-top: 0.5rem;
+    background-color: #10b981; /* Green-500 */
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .comment-button:hover {
+    background-color: #059669; /* Darker Green */
+  }
+  

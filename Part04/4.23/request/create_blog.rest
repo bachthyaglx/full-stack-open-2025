@@ -1,0 +1,10 @@
+POST http://localhost:3001/api/blogs
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImJhY2h0aHlhZ2x4IiwiaWQiOiI2NjE3YTU0ZTI3MTAyNjUxNTkyYjRmODYiLCJpYXQiOjE3MTMwOTc3OTF9.ejIiW7JH4f085HehxX2HLUY_Wik3Xn9h8Te6bzFVeFs
+
+{
+  "title": "Redux is hard",
+  "author": "Thy Khuu",
+  "url": "http://url4.com.vn",
+  "likes": 2
+}

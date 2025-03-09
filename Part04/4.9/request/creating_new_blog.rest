@@ -1,0 +1,9 @@
+POST http://localhost:3001/api/blogs
+Content-Type: application/json
+
+{
+  "title": "Will you still love me tomorrow?",
+  "author": "Thy Khuu",
+  "url": "http://url4",
+  "likes": 30
+}

@@ -1,0 +1,9 @@
+POST http://localhost:3001/api/blogs
+Content-Type: application/json
+
+{
+  "title": "Rain in the night",
+  "author": "Trang Le",
+  "url": "http://url3",
+  "likes": 
+}

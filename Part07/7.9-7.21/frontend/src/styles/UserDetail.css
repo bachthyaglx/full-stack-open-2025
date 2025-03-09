@@ -1,0 +1,59 @@
+/* UserDetail.css */
+
+/* General container styling */
+.user-detail-container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+  
+  /* User name styling */
+  .user-detail-container h2 {
+    font-size: 28px;
+    font-weight: bold;
+    color: #2d3748;
+    text-align: center;
+    margin-bottom: 15px;
+  }
+  
+  /* Blog section */
+  .user-detail-container h3 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #4a5568;
+    margin-bottom: 10px;
+  }
+  
+  /* List styling */
+  .user-detail-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  /* Blog items */
+  .user-detail-list li {
+    background-color: #f7fafc;
+    border: 1px solid #e2e8f0;
+    padding: 10px;
+    margin-bottom: 8px;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background 0.3s ease;
+  }
+  
+  .user-detail-list li:hover {
+    background-color: #e2e8f0;
+  }
+  
+  /* No user found message */
+  .user-not-found {
+    text-align: center;
+    font-size: 18px;
+    color: #e53e3e;
+    font-weight: bold;
+    margin-top: 20px;
+  }
+  

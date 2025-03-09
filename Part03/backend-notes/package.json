@@ -1,0 +1,25 @@
+{
+  "name": "notebackend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js",
+    "start": "node index.js",
+    "build:ui": "rm -rf dist && cd ../frontend-notes && npm run build && cp -r dist ../backend-notes",
+    "deploy": "flyctl deploy",
+    "deploy:full": "npm run build:ui && npm run deploy",    
+    "logs:prod": "flyctl logs"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "@flydotio/dockerfile": "^0.5.4",
+    "nodemon": "^3.0.3"
+  }
+}

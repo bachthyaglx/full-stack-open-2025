@@ -1,0 +1,8 @@
+POST http://localhost:3001/api/notes
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImJhY2h0aGFvYWdseCIsImlkIjoiNjYxNzk3ZWFlZjNiOGQ0MzAyNzNjMmE0IiwiaWF0IjoxNzEyODIzMTMxfQ.qS9jxgJPQ4gxlMqADRcy6u7187Lz2IALDoq5KUXJo_g
+
+{
+  "content": "RestAPI is fun",
+  "important": true
+}
