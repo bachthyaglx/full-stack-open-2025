@@ -58,3 +58,8 @@ My solutions for the exercises of the [University of Helsinki](https://www.helsi
 ### Full Stack Open: GraphQL module
 
 ![fullstackopen_graphQL_certificate_2025](https://github.com/user-attachments/assets/83682d53-9d76-4152-b173-0280115daea3)
+
+### Full Stack Open: Typescript module
+
+![fullstackopen_typescript_certificate_2025](https://github.com/user-attachments/assets/286e7df6-163e-42a4-9c5c-f9d23e2beb08)
+
