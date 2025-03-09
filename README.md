@@ -4,34 +4,34 @@ My solutions for the exercises of the [University of Helsinki](https://www.helsi
 
 ## Course content
 
-### Part 0: [Fundamentals of Web apps]([https://www.helsinki.fi/](https://www.fullstackopen.com/en/part0/)
+### Part 0: [Fundamentals of Web apps](https://fullstackopen.com/en/part0)
 - The basics of web development and also the advances in web application development during the last few decades. It includes topics such as web application structure, HTTP protocol, developer tools, traditional web applications, AJAX, single-page apps and JavaScript libraries.
 
-### Part 1: [Introduction to React]([[https://www.helsinki.fi/](https://fullstackopen.com/en/part0](https://fullstackopen.com/en/part1)
+### Part 1: [Introduction to React](https://fullstackopen.com/en/part0](https://fullstackopen.com/en/part1)
 - Familiarizing with the React-library and some features of JavaScript that are important for understanding React.
 
-### Part 2: [Communicating with server]([[https://www.helsinki.fi/](https://fullstackopen.com/en/part0](https://fullstackopen.com/en/part2)
+### Part 2: [Communicating with server](https://fullstackopen.com/en/part0](https://fullstackopen.com/en/part2)
 - Continuation of the introduction to React. It includes data rendering, data submit with HTML forms, fetching data from remote backend server and simple CSS styles.
 
-### Part 3: [Programming a server with NodeJS and Express]([[https://www.helsinki.fi/](https://fullstackopen.com/en/part0](https://fullstackopen.com/en/part3)
+### Part 3: [Programming a server with NodeJS and Express](https://fullstackopen.com/en/part0](https://fullstackopen.com/en/part3)
 - Focuses on implementing and deploying a simple REST API to the internet. The application is developed by using Node.js and the Express library. The application data is stored in a MongoDB database.
 
-### Part 4: [Testing Express servers, user administration]([[https://www.helsinki.fi/](https://fullstackopen.com/en/part0](https://fullstackopen.com/en/part4)
+### Part 4: [Testing Express servers, user administration](https://fullstackopen.com/en/part0](https://fullstackopen.com/en/part4)
 - The focus is still on the backend and the key topics are writing unit and integration tests and the implementing of user authentication and authorization.
 
-### Part 5: [Testing React apps]([[https://www.helsinki.fi/](https://fullstackopen.com/en/part0](https://fullstackopen.com/en/part5))
+### Part 5: [Testing React apps](https://fullstackopen.com/en/part0](https://fullstackopen.com/en/part5)
 - Deals with React code testing and token based authentication.
 
-### Part 6: [Advanced state management]([[https://www.helsinki.fi/](https://fullstackopen.com/en/part0](https://fullstackopen.com/en/part6))
+### Part 6: [Advanced state management](https://fullstackopen.com/en/part0](https://fullstackopen.com/en/part6)
 - Introduction to Redux library as a solution for managing the state of the React applications. Redux provides a centralized state management solution, simplifying state updates, enhancing predictability, and facilitating debugging in complex React applications.
 
-### Part 7: [React router, custom hooks, styling app with CSS and webpack]([[https://www.helsinki.fi/](https://fullstackopen.com/en/part0](https://fullstackopen.com/en/part7))
+### Part 7: [React router, custom hooks, styling app with CSS and webpack](https://fullstackopen.com/en/part0](https://fullstackopen.com/en/part7)
 - Getting familiar with React router as a way to divide the application into different views that are based on the URL. Also deals with custom hooks, different ways to style React applications and webpack.
 
-### Part 8: [GraphQL]([[https://www.helsinki.fi/](https://fullstackopen.com/en/part0](https://fullstackopen.com/en/part8))
+### Part 8: [GraphQL](https://fullstackopen.com/en/part0](https://fullstackopen.com/en/part8)
 - Introduction to GraphQL as an alternative to REST communication between browser and server. GraphQL allows clients to request precisely the data they need, reducing over-fetching and under-fetching, leading to more efficient and flexible APIs.
 
-### Part 9: [TypeScript]([[https://www.helsinki.fi/](https://fullstackopen.com/en/part0](https://fullstackopen.com/en/part9))
+### Part 9: [TypeScript](https://fullstackopen.com/en/part0](https://fullstackopen.com/en/part9)
 - Introduction to TypeScript that is a typed superset of Javascript. TypeScript offers static typing, enhancing code quality by catching errors at compile-time, improving code maintainability, and enabling better IDE support.
 
 ## My course progress
