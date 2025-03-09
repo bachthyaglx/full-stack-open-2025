@@ -1,6 +1,6 @@
 # Full Stack open
 
-This repository contains solutions from part 0 to part 10 of [University of Helsinki](https://www.helsinki.fi/)'s [Full Stack open](https://fullstackopen.com/) course. Full stack open is an excellent introduction to modern web development.
+[University of Helsinki](https://www.helsinki.fi/)'s [Full Stack open](https://fullstackopen.com/) course is an excellent introduction to modern web development. This repository contains my solutions from part 0 to part 10.
 
 ## Course content
 
