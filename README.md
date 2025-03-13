@@ -1,37 +1,37 @@
 # Full Stack open
 
-My solutions for the exercises of the [University of Helsinki](https://www.helsinki.fi/)'s [Full Stack open](https://fullstackopen.com/) course. This repository contains solutions from part 0 to part 9 of the course. Full stack open is an excellent introduction to modern web development. The core course consists of parts 0 to 5. After the core course, you can complete other parts in the order you want.
+[University of Helsinki](https://www.helsinki.fi/)'s [Full Stack open](https://fullstackopen.com/en/) course is an excellent introduction to modern web development. This repository contains my solutions from part 0 to part 10.
 
 ## Course content
 
-### Part 0: Fundamentals of Web apps
+### [Part 0 - Fundamentals of Web apps](https://fullstackopen.com/en/part0)
 - The basics of web development and also the advances in web application development during the last few decades. It includes topics such as web application structure, HTTP protocol, developer tools, traditional web applications, AJAX, single-page apps and JavaScript libraries.
 
-### Part 1: Introduction to React
+### [Part 1 - Introduction to React](https://fullstackopen.com/en/part1)
 - Familiarizing with the React-library and some features of JavaScript that are important for understanding React.
 
-### Part 2: Communicating with server
+### [Part 2 - Communicating with server](https://fullstackopen.com/en/part2)
 - Continuation of the introduction to React. It includes data rendering, data submit with HTML forms, fetching data from remote backend server and simple CSS styles.
 
-### Part 3: Programming a server with NodeJS and Express
+### [Part 3 - Programming a server with NodeJS and Express](https://fullstackopen.com/en/part3)
 - Focuses on implementing and deploying a simple REST API to the internet. The application is developed by using Node.js and the Express library. The application data is stored in a MongoDB database.
 
-### Part 4: Testing Express servers, user administration
+### [Part 4 - Testing Express servers, user administration](https://fullstackopen.com/en/part4)
 - The focus is still on the backend and the key topics are writing unit and integration tests and the implementing of user authentication and authorization.
 
-### Part 5: Testing React apps
+### [Part 5 - Testing React apps](https://fullstackopen.com/en/part5)
 - Deals with React code testing and token based authentication.
 
-### Part 6: Advanced state management
+### [Part 6 - Advanced state management](https://fullstackopen.com/en/part6)
 - Introduction to Redux library as a solution for managing the state of the React applications. Redux provides a centralized state management solution, simplifying state updates, enhancing predictability, and facilitating debugging in complex React applications.
 
-### Part 7: React router, custom hooks, styling app with CSS and webpack
+### [Part 7 - React router, custom hooks, styling app with CSS and webpack](https://fullstackopen.com/en/part7)
 - Getting familiar with React router as a way to divide the application into different views that are based on the URL. Also deals with custom hooks, different ways to style React applications and webpack.
 
-### Part 8: GraphQL
+### [Part 8 - GraphQL](https://fullstackopen.com/en/part8)
 - Introduction to GraphQL as an alternative to REST communication between browser and server. GraphQL allows clients to request precisely the data they need, reducing over-fetching and under-fetching, leading to more efficient and flexible APIs.
 
-### Part 9: TypeScript
+### [Part 9 - TypeScript](https://fullstackopen.com/en/part9)
 - Introduction to TypeScript that is a typed superset of Javascript. TypeScript offers static typing, enhancing code quality by catching errors at compile-time, improving code maintainability, and enabling better IDE support.
 
 ## My course progress
