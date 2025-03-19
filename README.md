@@ -34,21 +34,6 @@
 ### [Part 9 - TypeScript](https://fullstackopen.com/en/part9)
 - Introduction to TypeScript that is a typed superset of Javascript. TypeScript offers static typing, enhancing code quality by catching errors at compile-time, improving code maintainability, and enabling better IDE support.
 
-## My course progress
-
-| Part           | Status      | Exercises |
-| :------------: | :---------: | :-------: |
-| [0](./part_0/) | Done        | 6/6       |
-| [1](./part_1/) | Done        | 14/14     |
-| [2](./part_2/) | Done        | 20/20     |
-| [3](./part_3/) | Done        | 22/22     |
-| [4](./part_4/) | Done        | 23/23     |
-| [5](./part_5/) | Done        | 23/23     |
-| [6](./part_6/) | Done        | 24/24     |
-| [7](./part_7/) | Done        | 21/21     |
-| [8](./part_8/) | Done        | 26/26     |
-| [9](./part_9/) | Done        | 29/29     |
-
 ## Course certificates
 
 ### Full Stack Open: Core module
