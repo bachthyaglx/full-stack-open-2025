@@ -35,6 +35,9 @@
 - This section provides an introduction to TypeScript, a typed superset of JavaScript. TypeScript introduces static typing, which helps detect errors at compile time, supports code maintainability, and enhances development through improved editor and tooling support.
 ## Course certificates
 
+### [Part 10 - React Native](https://fullstackopen.com/en/part10)
+- This section covers building native Android and iOS applications using JavaScript and React through the React Native framework. It includes developing a mobile app from scratch while learning to render native UI components, design user interfaces, interact with a server, and test the application.
+  
 ### Full Stack Open: Core module
 
 ![fullstackopen_basics_certificate_2025](https://github.com/user-attachments/assets/4a5d645c-8ac6-42e3-be11-574857319f58)
