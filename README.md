@@ -50,3 +50,7 @@
 
 ![fullstackopen_typescript_certificate_2025](https://github.com/user-attachments/assets/286e7df6-163e-42a4-9c5c-f9d23e2beb08)
 
+### Full Stack Open: Typescript module
+
+![fullstackopen_reactnative_certificate_2025](https://github.com/user-attachments/assets/6ef6da1c-c7d9-442b-a7e4-f7c5184fc805)
+
