@@ -28,7 +28,7 @@
     "@testing-library/react-native": "^12.8.1",
     "date-fns": "^4.1.0",
     "dotenv": "^16.4.5",
-    "expo": "~51.0.28",
+    "expo": "^52.0.38",
     "expo-dev-client": "~4.0.26",
     "expo-status-bar": "~1.12.1",
     "formik": "^2.4.6",

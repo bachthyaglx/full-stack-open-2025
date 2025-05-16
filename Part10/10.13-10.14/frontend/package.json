@@ -1,0 +1,40 @@
+{
+  "name": "10.13-10.14",
+  "version": "1.0.0",
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web",
+    "lint": "eslint ./src/**/*.{js,jsx} App.js --no-error-on-unmatched-pattern"
+  },
+  "dependencies": {
+    "@apollo/client": "^3.13.4",
+    "@expo/metro-config": "~0.19.0",
+    "@expo/metro-runtime": "~4.0.1",
+    "dotenv": "^16.4.7",
+    "expo": "^52.0.38",
+    "expo-constants": "^17.0.8",
+    "expo-status-bar": "~2.0.1",
+    "formik": "^2.4.6",
+    "graphql": "^16.10.0",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "react-native": "0.76.7",
+    "react-native-web": "~0.19.13",
+    "react-router-native": "^6.30.0",
+    "yup": "^1.6.1",
+    "@react-native-async-storage/async-storage": "1.23.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.25.2",
+    "@babel/eslint-parser": "^7.26.10",
+    "@eslint/eslintrc": "^3.3.0",
+    "@eslint/js": "^9.22.0",
+    "eslint": "^9.22.0",
+    "eslint-plugin-react": "^7.37.4",
+    "eslint-plugin-react-native": "^5.0.0"
+  },
+  "private": true
+}
