@@ -37,6 +37,15 @@
 ### [Part 10 - React Native](https://fullstackopen.com/en/part10)
 - This section covers building native Android and iOS applications using JavaScript and React through the React Native framework. It includes developing a mobile app from scratch while learning to render native UI components, design user interfaces, interact with a server, and test the application.
 
+### [Part 11 - CI/CD](https://fullstackopen.com/en/part11)
+- This section covers building native Android and iOS applications using JavaScript and React through the React Native framework. It includes developing a mobile app from scratch while learning to render native UI components, design user interfaces, interact with a server, and test the application.
+
+### [Part 12 - Containers](https://fullstackopen.com/en/part12)
+- This part explains how to package applications into containers to create consistent and flexible environments for development. By using containers with Node.js and React projects, we’ll simplify managing multiple services and gain hands-on experience with modern web development tools. 
+
+### [Part 13 - Using relational databases](https://fullstackopen.com/en/part13)
+- This part covers relational databases—specifically PostgreSQL, a leading open-source option. As relational databases have evolved to address scalability and incorporate NoSQL-like features, we’ll learn how to integrate them into Node.js applications.
+
 ## Course certificates
 ### Full Stack Open: Core module
 
