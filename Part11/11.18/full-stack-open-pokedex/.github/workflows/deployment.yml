@@ -1,0 +1,74 @@
+# See https://fly.io/docs/app-guides/continuous-deployment-with-github-actions/
+# See https://render.com/docs/blueprint-spec
+# GitHub Actions requires the if: condition to be part of the step, not a separate item.
+
+name: Deployment pipeline
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+    types: [opened, synchronize]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: superfly/flyctl-actions/setup-flyctl@master
+
+      - name: Deploy to Fly.io
+        if: ${{ github.event_name == 'push' && !contains(join(github.event.commits.*.message, ' '), '#skip') }}
+        run: flyctl deploy --remote-only
+        env:
+          FLY_API_TOKEN: ${{ secrets.FLY_API_TOKEN }}
+
+      - name: Deploy to Render
+        if: ${{ github.event_name == 'push' && !contains(join(github.event.commits.*.message, ' '), '#skip') }}
+        run: curl https://api.render.com/deploy/srv-${{ secrets.RENDER_SERVICE_ID }}?key=${{ secrets.RENDER_API_KEY }}
+
+  tag_release:
+    name: Bump version and push tag
+    needs: [build]
+    runs-on: ubuntu-latest
+    if: ${{ github.event_name == 'push' && !contains(join(github.event.commits.*.message, ' '), '#skip') }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Bump version (patch) and push tag
+        uses: anothrNick/github-tag-action@1.64.0
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          DEFAULT_BUMP: patch
+
+  notify_discord:
+    name: Notify Discord
+    runs-on: ubuntu-latest
+    needs: [build]
+    if: always()
+
+    steps:
+      - name: Notify on Success
+        if: ${{ needs.build.result == 'success' }}
+        uses: tsickert/discord-webhook@v5.0.0
+        with:
+          webhook-url: ${{ secrets.DISCORD_WEBHOOK }}
+          content: |
+            ✅ **Build succeeded** – Pokedex deployed
+            🔗 Commit by `${{ github.actor }}`
+            🔗 Repo: `${{ github.repository }}`
+
+      - name: Notify on Failure
+        if: ${{ needs.build.result == 'failure' }}
+        uses: tsickert/discord-webhook@v5.0.0
+        with:
+          webhook-url: ${{ secrets.DISCORD_WEBHOOK }}
+          content: |
+            ❌ **Build failed**
+            🧑‍💻 Commit: ${{ github.event.head_commit.message }}
+            🔗 Commit URL: ${{ github.event.head_commit.url }}
+            📦 Author: `${{ github.actor }}`
