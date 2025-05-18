@@ -64,5 +64,8 @@
 ![fullstackopen_reactnative_certificate_2025](https://github.com/user-attachments/assets/6ef6da1c-c7d9-442b-a7e4-f7c5184fc805)
 
 ### Full Stack Open: CI/CD module
-https://studies.cs.helsinki.fi/stats/api/certificate/fs-cicd/en/660ecbde44045d19d075b25e42893399
+
+![fullstackopen_CI_CD_certificate_2025](https://github.com/user-attachments/assets/48a01fe4-18d9-4584-8188-0339fb25bccb)
+
+
 
