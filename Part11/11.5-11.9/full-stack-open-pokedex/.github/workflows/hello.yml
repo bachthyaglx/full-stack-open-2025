@@ -1,0 +1,20 @@
+name: Hello World Workflow
+
+on: [push]
+
+jobs:
+  hello_world_job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print Hello World
+        run: echo "Hello World!"
+
+      - name: Show current date
+        run: date
+
+      - name: List current directory contents
+<<<<<<< HEAD
+        run: ls -l
+=======
+        run: ls -l
+>>>>>>> 74880f6 (Initial push of full-stack-open-pokedex)
