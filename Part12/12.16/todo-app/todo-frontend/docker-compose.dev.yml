@@ -1,0 +1,15 @@
+# todo-frontend/docker-compose.dev.yml
+
+services:
+  frontend:
+    image: todo-frontend-dev
+    container_name: todo-frontend-dev
+    build:
+      context: .
+      dockerfile: dev.Dockerfile
+    volumes:
+      - ./:/usr/src/app
+      - /usr/src/app/node_modules # <-- this ensures container uses its own node_modules
+    ports:
+      - "5173:5173"
+    command: npm run dev -- --host
