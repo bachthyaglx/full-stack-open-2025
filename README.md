@@ -67,5 +67,7 @@
 
 ![fullstackopen_CI_CD_certificate_2025](https://github.com/user-attachments/assets/48a01fe4-18d9-4584-8188-0339fb25bccb)
 
+### Full Stack Open: Containers module
 
+![fullstackopen_containers_certificate_2025](https://github.com/user-attachments/assets/38855d8f-158a-4049-afef-2c267beb7fe7)
 
