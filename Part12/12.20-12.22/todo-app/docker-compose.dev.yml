@@ -1,25 +1,27 @@
 version: '3.8'
 
 services:
-  frontend:
+  app:
+    image: todo-frontend-dev
     build:
-      context: ./frontend
+      context: ./todo-frontend
       dockerfile: dev.Dockerfile
     volumes:
-      - ./frontend:/usr/src/app
+      - ./todo-frontend:/usr/src/app
       - /usr/src/app/node_modules
     command: npm run dev -- --host
     environment:
-      - VITE_BACKEND_URL=http://localhost:8080/api
+      - VITE_BACKEND_URL=/api
     depends_on:
-      - backend
+      - server
 
-  backend:
+  server:
+    image: todo-backend-dev
     build:
-      context: ./backend
+      context: ./todo-backend
       dockerfile: dev.Dockerfile
     volumes:
-      - ./backend:/usr/src/app
+      - ./todo-backend:/usr/src/app
       - /usr/src/app/node_modules
     environment:
       - REDIS_URL=redis://redis:6379
@@ -30,13 +32,11 @@ services:
 
   mongo:
     image: mongo
-    ports:
-      - "3456:27017"
     environment:
       MONGO_INITDB_ROOT_USERNAME: root
       MONGO_INITDB_ROOT_PASSWORD: example
-      MONGO_INITDB_DATABASE: the_database
     volumes:
+      - ./mongo/mongo-init.js:/docker-entrypoint-initdb.d/mongo-init.js
       - ./mongo_data:/data/db
 
   redis:
@@ -47,11 +47,10 @@ services:
 
   nginx:
     image: nginx:1.20.1
-    container_name: reverse-proxy
-    ports:
-      - "8080:80"
     volumes:
       - ./nginx.dev.conf:/etc/nginx/nginx.conf:ro
+    ports:
+      - "8080:80"
     depends_on:
-      - frontend
-      - backend
+      - app
+      - server

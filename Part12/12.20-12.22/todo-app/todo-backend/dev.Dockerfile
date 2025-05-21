@@ -2,13 +2,11 @@ FROM node:20
 
 WORKDIR /usr/src/app
 
-COPY package*.json ./
-
-RUN npm install
-
-# Install nodemon globally for dev server auto-restarts
-RUN npm install -g nodemon
-
 COPY . .
 
-CMD ["nodemon", "--inspect", "index.js"]
+RUN npm ci
+
+CMD npm run dev
+
+# docker build -f ./dev.Dockerfile -t backend-dev . 
+# docker run -it --rm -p 3000:3000 backend-dev

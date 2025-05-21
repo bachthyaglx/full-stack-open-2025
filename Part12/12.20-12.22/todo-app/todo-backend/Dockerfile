@@ -1,20 +1,14 @@
-# Use official Node image
 FROM node:20
 
-# Set working directory
 WORKDIR /usr/src/app
 
-# Copy app files and set permissions
 COPY --chown=node:node . .
 
-# Install dependencies with clean, reliable build
-RUN npm ci --omit=dev
+RUN npm ci
 
-# Set environment variable
-ENV PORT=3000
-
-# Run as non-root user
 USER node
 
-# Start the app
-CMD ["npm", "start"]
+CMD npm start
+
+# docker build -t backend .
+# docker run -it --rm -p 3000:3000 backend
