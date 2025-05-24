@@ -71,6 +71,6 @@
 
 ![fullstackopen_containers_certificate_2025](https://github.com/user-attachments/assets/38855d8f-158a-4049-afef-2c267beb7fe7)
 
-### Full Stack Open: Containers module
+### Full Stack Open: Relational Databases module
 
 ![fullstackopen_relational_databases_certificate_2025](https://github.com/user-attachments/assets/13f92e4e-af01-4bcc-8922-acd885a67a36)
